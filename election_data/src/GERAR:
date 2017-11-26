@@ -1,0 +1,29 @@
+GERAR:
+
+CARGO_ANO_TURNO
+
+      AC RJ SP
+ LULA 11 22 33
+SERRA 34 11 12
+
+
+CANDIDATOS_CARGO_ANO
+NOME URNA PARTIDO
+
+para cada
+
+
+- [X] Fazer Download dos dados:
+	- [X] Para antes de 1994:
+		- [X] Só faça download dos votacao_candidato_uf_{ano}.zip
+	- [X] Para os outros:
+		- [X] votacao_secao_{ano}_BR.zip
+		- [X] Consulta candidato
+
+- [X] Unzipe todos
+- [X] Normalize estrutura
+
+- [ ] Gere frame normalizada para pré 1994
+- [ ] Gere frame normalizada pro resto
+
+- [ ] Faça json de cada

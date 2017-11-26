@@ -1,0 +1,53 @@
+.Carousel {
+  padding     : 0 15px;
+  position    : relative;
+  font-weight : 300;
+}
+
+.Carousel .button {
+  width            : 10px;
+  height           : 10px;
+  position         : absolute;
+  box-sizing       : border-box;
+  top              : 50%;
+  transform-origin : 0 0;
+  transform        : rotate(-45deg);
+  border-style     : solid;
+  border-color     : rgba(0, 0, 0, 0.2);
+  transition       : border-color 0.5s;
+}
+
+.Carousel .button.left {
+  left         : 0px;
+  border-width : 1px 0 0 1px;
+}
+
+.Carousel .button.right {
+  right         : 5px;
+  border-width  : 0 1px 1px 0;
+}
+
+.Carousel .button.active {
+  border-color: black;
+}
+
+.Carousel > * {
+  overflow: hidden;
+}
+
+.Carousel ul {
+  /*width       : 100000000px;*/
+  padding     : 0;
+  margin      : 0;
+  height      : 100%;
+  transition  : transform 0.5s;
+}
+
+.Carousel li {
+  float      : left;
+  margin     : 0 0.8em;
+  height     : 100%;
+  list-style : none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
+}

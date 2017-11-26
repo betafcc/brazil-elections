@@ -1,0 +1,155 @@
+[
+  {
+    "url": "http://stacks.stanford.edu/file/druid:dm443sj2820/data.zip",
+    "map_year": 1940,
+    "election_year": 1945,
+    "period": [
+      1940,
+      1950
+    ]
+  },
+  {
+    "url": "http://stacks.stanford.edu/file/druid:yw498rc4263/data.zip",
+    "map_year": 1950,
+    "election_year": 1950,
+    "period": [
+      1950,
+      1956
+    ]
+  },
+  {
+    "url": "http://stacks.stanford.edu/file/druid:yw498rc4263/data.zip",
+    "map_year": 1950,
+    "election_year": 1955,
+    "period": [
+      1950,
+      1956
+    ]
+  },
+  {
+    "url": "http://stacks.stanford.edu/file/druid:yw498rc4263/data.zip",
+    "map_year": 1956,
+    "election_year": 1960,
+    "period": [
+      1956,
+      1962
+    ]
+  },
+  {
+    "url": "http://stacks.stanford.edu/file/druid:zf548hv4473/data.zip",
+    "map_year": 1962,
+    "election_year": 1964,
+    "period": [
+      1962,
+      1970
+    ]
+  },
+  {
+    "url": "http://stacks.stanford.edu/file/druid:zf548hv4473/data.zip",
+    "map_year": 1962,
+    "election_year": 1966,
+    "period": [
+      1962,
+      1970
+    ]
+  },
+  {
+    "url": "http://stacks.stanford.edu/file/druid:zf548hv4473/data.zip",
+    "map_year": 1962,
+    "election_year": 1969,
+    "period": [
+      1962,
+      1970
+    ]
+  },
+  {
+    "url": "http://stacks.stanford.edu/file/druid:kx233jf3889/data.zip",
+    "map_year": 1970,
+    "election_year": 1974,
+    "period": [
+      1970,
+      1980
+    ]
+  },
+  {
+    "url": "http://stacks.stanford.edu/file/druid:kx233jf3889/data.zip",
+    "map_year": 1970,
+    "election_year": 1978,
+    "period": [
+      1970,
+      1980
+    ]
+  },
+  {
+    "url": "http://stacks.stanford.edu/file/druid:nf449db8341/data.zip",
+    "map_year": 1980,
+    "election_year": 1985,
+    "period": [
+      1980,
+      1991
+    ]
+  },
+  {
+    "url": "http://stacks.stanford.edu/file/druid:nf449db8341/data.zip",
+    "map_year": 1980,
+    "election_year": 1989,
+    "period": [
+      1980,
+      1991
+    ]
+  },
+  {
+    "url": "http://stacks.stanford.edu/file/druid:ys298mq8577/data.zip",
+    "map_year": 1991,
+    "election_year": 1994,
+    "period": [
+      1991,
+      2000
+    ]
+  },
+  {
+    "url": "http://stacks.stanford.edu/file/druid:ys298mq8577/data.zip",
+    "map_year": 1991,
+    "election_year": 1998,
+    "period": [
+      1991,
+      2000
+    ]
+  },
+  {
+    "url": "http://stacks.stanford.edu/file/druid:ys298mq8577/data.zip",
+    "map_year": 1991,
+    "election_year": 2002,
+    "period": [
+      2000,
+      2010
+    ]
+  },
+  {
+    "url": "http://stacks.stanford.edu/file/druid:ys298mq8577/data.zip",
+    "map_year": 1991,
+    "election_year": 2006,
+    "period": [
+      2000,
+      2010
+    ]
+  },
+  {
+    "url": "http://stacks.stanford.edu/file/druid:ys298mq8577/data.zip",
+    "map_year": 1991,
+    "election_year": 2010,
+    "period": [
+      2010,
+      2018
+    ]
+  },
+  {
+    "url": "http://stacks.stanford.edu/file/druid:ys298mq8577/data.zip",
+    "map_year": 1991,
+    "election_year": 2014,
+    "period": [
+      2010,
+      2018
+    ]
+  }
+]

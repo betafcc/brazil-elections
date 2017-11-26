@@ -1,0 +1,59 @@
+@import "./partidos.css";
+
+.BrazilElectionMap {
+  outline: none;
+}
+
+.BrazilElectionMap.large .Main {
+  display: inline-block;
+  float: left;
+  width: 70%;
+  box-sizing: border-box;
+}
+
+.BrazilElectionMap.large .Ranking {
+  display: block;
+  height: 100%;
+  width: 30%;
+  float: left;
+  box-sizing: border-box;
+}
+
+
+.BrazilElectionMap a {
+  transition: 0.3s color;
+  cursor: pointer;
+  user-select: none;
+}
+
+.BrazilElectionMap a:not(.selected) {
+  opacity: 0.3;
+}
+
+
+.BrazilElectionMap .Candidato {
+  border-left: 4px solid gray;
+}
+
+.BrazilElectionMap .Candidato .nome {
+  text-transform: uppercase;
+}
+
+
+.BrazilElectionMap .BrazilMap {
+  padding: 10px 0;
+  /*box-sizing: border-box;*/
+}
+
+.BrazilElectionMap .BrazilMap path {
+  stroke-width: 0.3px;
+  stroke: black;
+  transition: opacity 0.3s;
+  cursor: pointer;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.BrazilElectionMap .BrazilMap path:not(.focus) {
+  opacity: 0.3;
+}
