@@ -36,10 +36,10 @@ export default class BrazilElectionMap extends React.Component {
 
 
   componentDidMount = () => {
-    elections('/brazil-elections/data/elections.json')
+    elections('./data/elections.json')
       .then(elections => (this.setState({elections}), window.elections = elections))
 
-    fetch('/brazil-elections/data/tabela_postais.json')
+    fetch('./data/tabela_postais.json')
       .then(r => r.json())
       .then(postais => this.setState({postais}))
 
