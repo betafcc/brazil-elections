@@ -4,7 +4,7 @@ import SvgMap from '../SvgMap'
 import loadMaps from '../../services/brazilMaps'
 
 
-const URL = '/brazil-elections/data/all_maps.json'
+const URL = './data/all_maps.json'
 
 
 export default class BrazilMap extends React.Component {
