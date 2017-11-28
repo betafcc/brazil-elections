@@ -25,8 +25,8 @@ topo.push((() => {  // Adicionando o mapa de 1960 baseado no de 1962, apenas mud
 
 
 const fixStates = (geoDict) => {
-  const ES = getState(geoDict[1991], 'ES');
-  const MG = getState(geoDict[1991], 'MG');
+  const ES = getState(geoDict[1989], 'ES');
+  const MG = getState(geoDict[1989], 'MG');
 
   setStateForAllYears(geoDict, 'ES', ES);
   setStateForAllYears(geoDict, 'MG', MG);
@@ -54,7 +54,7 @@ const setStateForAllYears = (geoDict, postal, state) =>
 
 let geos = topo
   .map(({year, map}) => ({  // Convert TopoJSON maps to GeoJSON
-    year: year === 1962 ? 1960 : year,  // 1962 map actually is from 1960
+    year: year === 1991 ? 1989 : year,  // 1962 map actually is from 1960
     map: topojson.feature(map, map.objects.states),
   }))
   .map(({year, map}) => {  // Sort features by postal
@@ -71,7 +71,7 @@ let geos = topo
   , {});
 
 
-// ES and MG are weird in some years, this uses the 1991 version for all
+// ES and MG are weird in some years, this uses the 1989 version for all
 geos = fixStates(geos);
 
 const tabelaPostais = Object
