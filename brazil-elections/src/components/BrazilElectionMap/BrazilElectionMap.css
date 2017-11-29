@@ -48,7 +48,7 @@
 .BrazilElectionMap .BrazilMap path {
   stroke-width: 0.3px;
   stroke: black;
-  transition: opacity 0.3s;
+  transition: opacity 0.3s, fill 0.3s;
   cursor: pointer;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -webkit-tap-highlight-color: transparent;
